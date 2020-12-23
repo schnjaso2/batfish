@@ -145,7 +145,7 @@
     "source-map-support": "^0.5.4",
     "tempy": "^0.2.1",
     "time-stamp": "^2.0.0",
-    "uglify-js": "^3.3.16",
+    "uglify-js": "^3.12.1",
     "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^3.11.0",
     "webpack-format-messages": "^1.0.2",
