@@ -142,7 +142,7 @@
     "serve-static": "^1.13.2",
     "sitemap-static": "^0.4.2",
     "slugg": "^1.2.1",
-    "source-map-support": "^0.5.4",
+    "source-map-support": "^0.5.19",
     "tempy": "^0.2.1",
     "time-stamp": "^2.0.0",
     "uglify-js": "^3.3.16",
