@@ -125,7 +125,7 @@
     "live-server": "^1.2.0",
     "loader-utils": "^1.1.0",
     "lodash": "^4.17.5",
-    "meow": "^4.0.0",
+    "meow": "^8.0.0",
     "micromatch": "^3.1.10",
     "mkdirp": "^0.5.1",
     "nocache": "^2.0.0",
