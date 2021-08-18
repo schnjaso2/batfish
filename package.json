@@ -146,7 +146,7 @@
     "tempy": "^0.2.1",
     "time-stamp": "^2.0.0",
     "uglify-js": "^3.3.16",
-    "uglifyjs-webpack-plugin": "^1.2.4",
+    "uglifyjs-webpack-plugin": "^2.0.0",
     "webpack": "^3.11.0",
     "webpack-format-messages": "^1.0.2",
     "webpack-merge": "^4.1.2",
