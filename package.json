@@ -108,7 +108,7 @@
     "connect-history-api-fallback": "^1.5.0",
     "cpy": "^6.0.0",
     "del": "^3.0.0",
-    "del-cli": "^1.1.0",
+    "del-cli": "^2.0.0",
     "es6-promise": "^4.2.4",
     "fasterror": "^1.1.0",
     "file-loader": "^1.1.11",
