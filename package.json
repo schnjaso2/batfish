@@ -137,7 +137,7 @@
     "postcss-url": "^7.3.1",
     "pretty-error": "^2.1.1",
     "pretty-ms": "^3.1.0",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.6.2",
     "resolve-from": "^4.0.0",
     "serve-static": "^1.13.2",
     "sitemap-static": "^0.4.2",
