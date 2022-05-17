@@ -26,7 +26,9 @@
     "build-webpack-modules": "del modules && babel src/webpack/public --out-dir modules --quiet",
     "build-dist": "del dist && cd src && cpy '**/*.*' ../dist --parents && cd .. && flow-remove-types dist/ --out-dir dist/ --quiet && cpy src/node/index.js dist/node --rename index.js.flow",
     "build": "run-p build-webpack-modules build-dist",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -125,7 +127,7 @@
     "live-server": "^1.2.1",
     "loader-utils": "^1.1.0",
     "lodash": "^4.17.21",
-    "meow": "^6.0.0",
+    "meow": "^6.1.0",
     "micromatch": "^3.1.10",
     "mkdirp": "^0.5.2",
     "nocache": "^2.0.0",
@@ -150,7 +152,8 @@
     "webpack": "^4.26.0",
     "webpack-format-messages": "^1.0.2",
     "webpack-merge": "^4.1.2",
-    "worker-farm": "^1.6.0"
+    "worker-farm": "^1.6.0",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "react": "^15.5.0 || ^16.0.0",
@@ -194,5 +197,6 @@
   "engines": {
     "node": ">=6",
     "npm": ">=5"
-  }
+  },
+  "snyk": true
 }

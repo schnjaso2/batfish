@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - webpack > micromatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > micromatch > braces > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > micromatch > extglob > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > micromatch > nanomatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > braces > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > micromatch > extglob > expand-brackets > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > braces > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > anymatch > micromatch > extglob > expand-brackets > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > readdirp > micromatch > extglob > expand-brackets > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - live-server > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > expand-brackets > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
+    - webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2022-05-17T21:59:21.917Z'
