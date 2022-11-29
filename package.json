@@ -123,7 +123,7 @@
     "is-absolute-url": "^2.1.0",
     "is-glob": "^4.0.0",
     "live-server": "^1.2.1",
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^1.4.2",
     "lodash": "^4.17.21",
     "meow": "^6.0.0",
     "micromatch": "^3.1.10",
